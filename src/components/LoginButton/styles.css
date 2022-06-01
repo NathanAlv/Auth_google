@@ -1,0 +1,33 @@
+#login-button{
+    display: block;
+    margin: auto;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: (10px);
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#login-button *{
+    vertical-align: middle;
+}
+
+#login-button img{
+    width: 24px;
+    margin-right: 10px;
+}
+
+#login-button span{
+    font-family: 'bold';
+    font-size: 120%;
+    color: ivory
+}
+
+
+body{
+    background-image: url(./img/plano-de-fundo02.jpg);
+  }
+  
