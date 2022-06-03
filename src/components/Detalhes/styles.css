@@ -1,0 +1,52 @@
+body{
+    background-image: url(../../../img/plano-de-fundo02.jpg);
+}
+
+#menu {
+    display: flex;
+    width: 80%;
+    margin: none;
+}
+
+
+#menu h1{
+    color: ivory;
+    text-align: center;
+    padding-right: 700px;
+    padding-left: 50px;
+}
+
+#menu a {
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    background: rgb(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: ivory;
+    font-family: "bold";
+    font-size: 120%;
+    border-radius: 15px;
+}
+
+#menu img{
+    border-radius: 20px;
+}
+
+#Detalhes {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#Detalhes h1 {
+    font-family: "bold";
+    padding: 100px;
+    color: ivory;
+}
+#Detalhes p {
+  color: ivory;
+  font-family: "regular";
+}

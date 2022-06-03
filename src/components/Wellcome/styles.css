@@ -24,12 +24,34 @@
     border: radius 10px;
 }
 
-#header{
-    display: block;
+#menu {
+    display: flex;
+    width: 80%;
+    margin: none;
+}
+
+
+#menu h1{
     color: ivory;
     text-align: center;
-    padding: 10px 0;
-    
+    padding-right: 700px;
+    padding-left: 50px;
+}
+
+#menu a {
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: ivory;
+    font-family: "bold";
+    font-size: 120%;
+    border-radius: 15px;
+}
+
+#menu img{
+    border-radius: 20px;
 }
 
 body{
